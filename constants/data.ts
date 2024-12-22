@@ -7,7 +7,7 @@ export const cards = [
     location: "Location 1",
     price: "$100",
     rating: 4.8,
-    category: "house",
+    category: "House",
     image: images.newYork,
   },
   {
@@ -15,7 +15,7 @@ export const cards = [
     location: "Location 2",
     price: "$200",
     rating: 3,
-    category: "house",
+    category: "House",
     image: images.japan,
   },
   {
@@ -23,7 +23,7 @@ export const cards = [
     location: "Location 3",
     price: "$300",
     rating: 2,
-    category: "flat",
+    category: "Others",
     image: images.newYork,
   },
   {
@@ -31,7 +31,7 @@ export const cards = [
     location: "Location 4",
     price: "$400",
     rating: 5,
-    category: "villa",
+    category: "Villa",
     image: images.japan,
   },
 ];
@@ -43,7 +43,7 @@ export const featuredCards = [
     price: "$100",
     rating: 4.8,
     image: images.newYork,
-    category: "house",
+    category: "House",
   },
   {
     title: "Featured 2",
@@ -51,20 +51,20 @@ export const featuredCards = [
     price: "$200",
     rating: 3,
     image: images.japan,
-    category: "flat",
+    category: "Studios",
   },
 ];
 
 export const categories = [
   { title: "All", category: "All" },
   { title: "Houses", category: "House" },
+  { title: "Townhouse", category: "Townhouse" },
   { title: "Condos", category: "Condos" },
   { title: "Duplexes", category: "Duplexes" },
   { title: "Studios", category: "Studios" },
   { title: "Villas", category: "Villa" },
   { title: "Apartments", category: "Apartments" },
-  { title: "Townhomes", category: "Townhomes" },
-  { title: "Others", category: "Others" },
+   { title: "Others", category: "Others" },
 ];
 
 export const settings = [
