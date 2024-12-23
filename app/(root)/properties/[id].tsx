@@ -116,7 +116,6 @@ const propertyFacilities = typeof property?.facilities === "string"
           <Text className="text-black-300 text-xl font-rubik-bold">
             Facilities
           </Text>
-
         
          <Facilities facilities={propertyFacilities} />
         </View>
