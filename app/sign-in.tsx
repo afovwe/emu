@@ -25,7 +25,7 @@ const SignIn = () => {
 
     return (
         <SafeAreaView className="bg-white h-full">
-            <ScrollView contentContainerClassName="h-[90%]">
+            <ScrollView contentContainerClassName="h-[80%]">
                 <Image source={images.onboarding} className="w-full h-4/6" resizeMode="contain" />
 
                 <View className="px-10">
@@ -37,7 +37,7 @@ const SignIn = () => {
                     </Text>
 
                     <Text className="text-lg font-rubik text-black-200 text-center mt-12">
-                        Login to ReState with Google
+                        Login to EmuState with Google
                     </Text>
 
                     <TouchableOpacity onPress={handleLogin} className="bg-white shadow-md shadow-zinc-300 rounded-full w-full py-4 mt-5">
