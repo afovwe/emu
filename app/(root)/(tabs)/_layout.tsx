@@ -47,6 +47,15 @@ const TabsLayout = () => {
                     )
                 }}
             /><Tabs.Screen
+                name="new"
+                options={{
+                    title: 'New',
+                    headerShown: false,
+                    tabBarIcon: ({ focused }) => (
+                        <TabIcon icon={icons.plus} focused={focused} title="Create" />
+                    )
+                }}
+            /><Tabs.Screen
                 name="profile"
                 options={{
                     title: 'Profile',
